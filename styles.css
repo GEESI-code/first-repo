@@ -9,12 +9,23 @@ body {
   width: 100%;
   min-height: 700px;
   background: rgb(21, 87, 102);
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Mono", monospace;
+  padding: 40px;
+}
+
 .card-outer {
   width: 500px;
   min-height: 620px;
   background: rgb(17, 55, 82);
-  padnter;
+  padding: 36px 32px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 
